@@ -2,13 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class DetectCollisions : MonoBehaviour
 {
-    
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -16,5 +15,10 @@ public class PlayerController : MonoBehaviour
     {
         
     }
+     private void OnTriggerEnter(Collider other)
 
+    {
+        Destroy(gameObject);
+        Destroy(other.gameObject);
+    }
 }
