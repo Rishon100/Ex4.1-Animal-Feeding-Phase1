@@ -61,7 +61,6 @@ Edit their speed values and test to see how it looks. Drag all three animals int
 
 ## DEVELOPED BY : V RISHON ANAND
 ## REG NO : 212224240135
-```
 ## PLAYER CONTROL :
 ```
 using System.Collections;
